@@ -1,1 +1,2 @@
 git+https://github.com/rtfd/sphinxcontrib-dotnetdomain/#egg=sphinxcontrib-dotnetdomain
+git+https://github.com/rtfd/sphinx-autoapi/#egg=autoapi

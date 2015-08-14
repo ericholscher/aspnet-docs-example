@@ -1,0 +1,3 @@
+[submodule "example/Identity"]
+	path = example/Identity
+	url = https://github.com/aspnet/Identity

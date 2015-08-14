@@ -17,14 +17,5 @@ htmlhelp_basename = 'dotnetexampledoc'
 extensions = ['autoapi.extension', 'sphinxcontrib.dotnetdomain']
 
 autoapi_type = 'dotnet'
-# Turn this on for debugging
-# autoapi_keep_files = True
-
+# autoapi_keep_files = False
 autoapi_dir = 'example/Identity/src/'
-
-import os
-
-SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
-DIR = os.path.join(SITE_ROOT, autoapi_dir)
-if not os.path.exists(DIR):
-    os.system('git clone https://github.com/aspnet/Identity %s' % os.path.join(SITE_ROOT, 'example/Identity'))

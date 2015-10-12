@@ -19,3 +19,4 @@ extensions = ['autoapi.extension', 'sphinxcontrib.dotnetdomain']
 autoapi_type = 'dotnet'
 # autoapi_keep_files = False
 autoapi_dir = 'example/Identity/src/'
+autoapi_dirs = ['example/Identity/src/']
